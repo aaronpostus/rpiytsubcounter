@@ -9,8 +9,7 @@ from Adafruit_LED_Backpack import SevenSegment
 # Create display instance on default I2C address (0x70) and bus number.
 display = SevenSegment.SevenSegment()
 colon = False
-# Run through different number printing examples.
-print('Press Ctrl-C to quit.')
+
 channel_id = "put your channel id here" # channel id
 api_key = "put your api key here"
 lookup_url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&id=" + channel_id + "&key=" + api_key
